@@ -1,70 +1,87 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+project-root/
+│
+├── /public/                    # فایل‌های استاتیک و عمومی
+│   ├── /images/               # تصاویر بهینه‌شده (WebP)
+│   │   ├── coach.webp
+│   │   ├── tactic-board.webp
+│   │   ├── icons/            # آیکون‌ها (زنگوله، سکه، نمودار)
+│   │   │   ├── bell.webp
+│   │   │   ├── coin.webp
+│   │   │   ├── chart.webp
+│   │   └── ...
+│   ├── index.html            # فایل HTML اصلی
+│   └── favicon.ico
+│
+├── /src/                      # کد منبع فرانت‌اند
+│   ├── /components/          # کامپوننت‌های React قابل استفاده مجدد
+│   │   ├── Header.tsx
+│   │   ├── TacticBoard.tsx
+│   │   ├── Menu.tsx
+│   │   ├── PlayerCard.tsx    # برای فروشگاه
+│   │   └── ...
+│   ├── /pages/              # صفحات مختلف (18 صفحه طراحی‌شده)
+│   │   ├── Home.tsx         # صفحه اصلی
+│   │   ├── AdminDashboard.tsx
+│   │   ├── Shop.tsx         # صفحه فروشگاه
+│   │   ├── Tactic.tsx       # صفحه ترکیب و تاکتیک
+│   │   ├── Profile.tsx      # صفحه پروفایل (/profile/:username)
+│   │   ├── Stats.tsx        # صفحه آمار
+│   │   ├── Support.tsx      # صفحه پشتیبانی
+│   │   └── ...
+│   ├── /services/           # سرویس‌ها برای API و منطق
+│   │   ├── authService.ts   # احراز هویت (JWT)
+│   │   ├── paymentService.ts # درگاه زرین‌پال
+│   │   ├── gameService.ts   # شبیه‌سازی بازی
+│   │   └── ...
+│   ├── /utils/              # ابزارهای کمکی
+│   │   ├── imageOptimizer.ts # بهینه‌سازی تصاویر
+│   │   └── constants.ts     # ثابت‌ها (مثل نقش‌ها، تاکتیک‌ها)
+│   ├── /styles/             # استایل‌ها
+│   │   ├── global.css       # استایل‌های سراسری
+│   │   └── tailwind.css
+│   ├── App.tsx              # کامپوننت اصلی اپلیکیشن
+│   ├── index.tsx            # نقطه ورود اپلیکیشن
+│   └── types.ts             # تعریف تایپ‌ها برای TypeScript
+│
+├── /server/                  # کد منبع بک‌اند (Node.js)
+│   ├── /config/             # تنظیمات
+│   │   ├── db.ts            # اتصال به MongoDB
+│   │   └── env.ts           # متغیرهای محیطی (مثل کلید زرین‌پال)
+│   ├── /models/             # مدل‌های دیتابیس
+│   │   ├── User.ts
+│   │   ├── Player.ts
+│   │   ├── Team.ts
+│   │   └── ...
+│   ├── /routes/             # مسیرهای API
+│   │   ├── authRoutes.ts    # ثبت‌نام، ورود
+│   │   ├── paymentRoutes.ts # درگاه پرداخت
+│   │   ├── gameRoutes.ts    # شبیه‌سازی بازی
+│   │   └── ...
+│   ├── /controllers/        # کنترلرها
+│   │   ├── authController.ts
+│   │   ├── paymentController.ts
+│   │   └── ...
+│   ├── /middleware/         # میدل‌ورها
+│   │   ├── authMiddleware.ts # احراز هویت
+│   │   └── ...
+│   ├── server.ts            # نقطه ورود سرور
+│   └── cronJobs.ts          # زمان‌بندی (Cron Jobs برای سکه و لیگ‌ها)
+│
+├── /docs/                    # مستندات
+│   ├── architecture.md      # معماری پروژه
+│   ├── setup-guide.md       # راهنمای راه‌اندازی
+│   └── api-spec.md          # مشخصات API
+│
+├── /tests/                   # تست‌ها
+│   ├── /unit/               # تست‌های واحد
+│   │   ├── auth.test.ts
+│   │   └── ...
+│   └── /integration/        # تست‌های یکپارچه
+│       └── game.test.ts
+│
+├── .env                      # متغیرهای محیطی (کلیدها، پورت‌ها)
+├── .gitignore                # فایل‌های نادیده‌گرفته‌شده
+├── package.json             # وابستگی‌ها و اسکریپت‌ها
+├── tsconfig.json            # تنظیمات TypeScript
+├── tailwind.config.js       # تنظیمات Tailwind CSS
+└── README.md                # راهنمای اولیه پروژه# football90
