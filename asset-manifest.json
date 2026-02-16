@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/football90/static/css/main.92274e14.css",
-    "main.js": "/football90/static/js/main.b7793633.js",
+    "main.js": "/football90/static/js/main.fb5bc80a.js",
     "static/media/back1.jpg": "/football90/static/media/back1.0349203c562943784017.jpg",
     "static/media/fr13632221_Soccer_Ball_Png_www.gfiles.ir.png": "/football90/static/media/fr13632221_Soccer_Ball_Png_www.gfiles.ir.c3e4ea82e570cb03adab.png",
     "static/media/کاپ 7.png": "/football90/static/media/کاپ 7.e8100f325f251b0c3052.png",
@@ -68,10 +68,10 @@
     "static/media/تیک-سبز.png": "/football90/static/media/تیک-سبز.a5ccd823eec5f737eae3.png",
     "index.html": "/football90/index.html",
     "main.92274e14.css.map": "/football90/static/css/main.92274e14.css.map",
-    "main.b7793633.js.map": "/football90/static/js/main.b7793633.js.map"
+    "main.fb5bc80a.js.map": "/football90/static/js/main.fb5bc80a.js.map"
   },
   "entrypoints": [
     "static/css/main.92274e14.css",
-    "static/js/main.b7793633.js"
+    "static/js/main.fb5bc80a.js"
   ]
 }
