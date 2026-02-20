@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/football90/static/css/main.92274e14.css",
-    "main.js": "/football90/static/js/main.fb5bc80a.js",
+    "main.css": "/football90/static/css/main.17b4279e.css",
+    "main.js": "/football90/static/js/main.cba11c61.js",
     "static/media/back1.jpg": "/football90/static/media/back1.0349203c562943784017.jpg",
     "static/media/fr13632221_Soccer_Ball_Png_www.gfiles.ir.png": "/football90/static/media/fr13632221_Soccer_Ball_Png_www.gfiles.ir.c3e4ea82e570cb03adab.png",
     "static/media/کاپ 7.png": "/football90/static/media/کاپ 7.e8100f325f251b0c3052.png",
+    "static/media/ترکیب.png": "/football90/static/media/ترکیب.71d862c7b377763360bf.png",
     "static/media/کاپ 1.png": "/football90/static/media/کاپ 1.966a13433755435f95c0.png",
     "static/media/تمرینی.png": "/football90/static/media/تمرینی.40e8000f86bca9a3b2bc.png",
     "static/media/کاپ 3.png": "/football90/static/media/کاپ 3.d327b19275bca1d123fa.png",
@@ -67,11 +68,11 @@
     "static/media/تیک-قرمز.png": "/football90/static/media/تیک-قرمز.f25c142494363bf78cae.png",
     "static/media/تیک-سبز.png": "/football90/static/media/تیک-سبز.a5ccd823eec5f737eae3.png",
     "index.html": "/football90/index.html",
-    "main.92274e14.css.map": "/football90/static/css/main.92274e14.css.map",
-    "main.fb5bc80a.js.map": "/football90/static/js/main.fb5bc80a.js.map"
+    "main.17b4279e.css.map": "/football90/static/css/main.17b4279e.css.map",
+    "main.cba11c61.js.map": "/football90/static/js/main.cba11c61.js.map"
   },
   "entrypoints": [
-    "static/css/main.92274e14.css",
-    "static/js/main.fb5bc80a.js"
+    "static/css/main.17b4279e.css",
+    "static/js/main.cba11c61.js"
   ]
 }
