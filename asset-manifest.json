@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/football90/static/css/main.17b4279e.css",
-    "main.js": "/football90/static/js/main.cba11c61.js",
+    "main.css": "/football90/static/css/main.c1b93142.css",
+    "main.js": "/football90/static/js/main.c32c110b.js",
     "static/media/back1.jpg": "/football90/static/media/back1.0349203c562943784017.jpg",
     "static/media/fr13632221_Soccer_Ball_Png_www.gfiles.ir.png": "/football90/static/media/fr13632221_Soccer_Ball_Png_www.gfiles.ir.c3e4ea82e570cb03adab.png",
     "static/media/کاپ 7.png": "/football90/static/media/کاپ 7.e8100f325f251b0c3052.png",
@@ -62,17 +62,18 @@
     "static/media/private-account.png": "/football90/static/media/private-account.19584ff44d9a5a245688.png",
     "static/media/کاپ-10.png": "/football90/static/media/کاپ-10.bd4573972d6eba62abfa.png",
     "static/media/ezgif-5aa45279c68915.png": "/football90/static/media/ezgif-5aa45279c68915.a0054fadc3518c432ad4.png",
+    "static/media/getcoin.png": "/football90/static/media/getcoin.afd6534349d7c0ea8a5a.png",
     "static/media/pngimg.com - coin_PNG36871.png": "/football90/static/media/pngimg.com - coin_PNG36871.39939050f111488c959c.png",
     "static/media/FCB.svg.png": "/football90/static/media/FCB.svg.627e80f95acc0173ad76.png",
     "static/media/pie-chart.png": "/football90/static/media/pie-chart.9c5b04f3b4f39091bafd.png",
     "static/media/تیک-قرمز.png": "/football90/static/media/تیک-قرمز.f25c142494363bf78cae.png",
     "static/media/تیک-سبز.png": "/football90/static/media/تیک-سبز.a5ccd823eec5f737eae3.png",
     "index.html": "/football90/index.html",
-    "main.17b4279e.css.map": "/football90/static/css/main.17b4279e.css.map",
-    "main.cba11c61.js.map": "/football90/static/js/main.cba11c61.js.map"
+    "main.c1b93142.css.map": "/football90/static/css/main.c1b93142.css.map",
+    "main.c32c110b.js.map": "/football90/static/js/main.c32c110b.js.map"
   },
   "entrypoints": [
-    "static/css/main.17b4279e.css",
-    "static/js/main.cba11c61.js"
+    "static/css/main.c1b93142.css",
+    "static/js/main.c32c110b.js"
   ]
 }
